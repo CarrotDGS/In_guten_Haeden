@@ -1,0 +1,86 @@
+body{
+background-color:#F5E663;
+}
+
+#title p{
+font-family: 'Space Mono', monospace;
+font-size: 40px;
+}
+
+#title h1{
+font-family: 'Muli', sans-serif;
+font-size: 80px;
+}
+
+#title{
+text-align: center;
+font-family: 'Muli', sans-serif;
+font-size: 50
+font-weight: bolder;
+color:#084C61;
+}
+
+#nav-bar{
+	display:flex;
+	height:100px;
+	align-items:center;
+	justify-content:space-between;
+	padding:30px;
+	}
+.nav-bar-links a {
+	text-decoration: none;
+	color:#DB3A34;
+	padding:15px;
+	}
+.nav-bar-links a:hover {
+	color:#F26157;
+}
+
+.logo i  {
+	color:#DB3A34;
+	font-size:100px;
+	padding:20px;
+}
+
+.menu-links{
+	border-radius: 100px;
+	margin:15px;
+}
+
+#menu{
+	background-color: #F26157;
+	display:flex;
+	justify-content: space-between;
+	padding:20px;
+	align-items: center;
+}
+
+.menu-links a img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+h2{
+text-align: center;
+font-family: 'Muli', sans-serif;
+font-size: 32;
+color:#177E89;
+}
+
+.banner{
+	margin:0px;
+	padding:15px;
+	text-align: center;
+}
+
+.banner h1{
+font-family: 'Muli', sans-serif;
+font-size: 60px;
+}
+
+.banner p{
+font-family: 'Space Mono', monospace;
+font-size: 20px;
+line-height: 30px;
+}
